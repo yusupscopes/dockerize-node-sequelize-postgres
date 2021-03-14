@@ -8,8 +8,8 @@ You should have docker and docker-compose installed on your machine
 
 # Installation
 
-Run the following command:
-`docker-compose up --build`
+Run the following command:  
+`docker-compose up --build`  
 The above command will do a couple of things:
 
 1. Pulling postgres image from docker hub and build postgres container
@@ -19,7 +19,7 @@ The above command will do a couple of things:
 # Migration
 
 For simplicity, I choose default postgres database called _postgres_, so all the table will be store in this database.
-Run this command to create the table:  
+Run below command to create the table:  
 `docker-compose run pivotapp npm run migrate`
 
 # Populate the Database
