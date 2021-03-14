@@ -19,7 +19,7 @@ The above command will do a couple of things:
 # Migration
 
 For simplicity, I choose default postgres database called _postgres_, so all the table will be store in this database.
-Run below command to create the table:
+Run this command to create the table:  
 `docker-compose run pivotapp npm run migrate`
 
 # Populate the Database
@@ -29,3 +29,7 @@ Run below command to create the table:
 # Test
 
 `docker-compose run pivotapp npm run test`
+
+# Page
+
+To check our app working correctly, go to customer page url `http://localhost:3000/customers/all` in browser.
